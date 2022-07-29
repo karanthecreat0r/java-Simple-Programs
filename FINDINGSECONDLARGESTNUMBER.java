@@ -1,16 +1,32 @@
 import java.util.*;
-class secondLargestOfThree
+class SecondLargest
 {
-  static Scanner sc=new Scanner (System.in);
+  static Scanner sc = new Scanner(System.in);
   public static void main(String[] args) {
-    System.out.println("Enter the number a =");
+    System.out.println("ENter A=");
     int a =sc.nextInt();
-    System.out.println("Enter the number b =");
-    int b = sc.nextInt();
-    System.out.println("Enter the number c =");
-    int c = sc.nextInt();
-    int largest = (a>b && a<c)?a:(b>a && b<c)?b:c;
-    System.out.println("The Largest of two number is = "+largest);
-
+    System.out.println("Enter B=");
+    int b =sc.nextInt();
+    System.out.println("Enter c =");
+    int c=sc.nextInt();
+//Finding if a is greater than b&c
+    if (a>b&&a>c) {
+//finding if b is grater than c is no c is printed
+      if (b>c) {
+        System.out.println(b+ " Is the Second greates");
+      }
+      else {
+        System.out.println(c+ " Is the Second greates");
+      }
+    }
+//Finding a is lesser than b & c
+    if (a<c&&a<c) {
+      if (b>a) {
+        System.out.println(b+ " Is the Second greates");
+      }
+      else {
+        System.out.println(a+ " Is the Second greates");
+      }
+    }
   }
 }
