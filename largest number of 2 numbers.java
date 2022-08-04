@@ -1,5 +1,5 @@
 import java.util.*;
-class smallestTwo
+class LargestOfTwo
 {
   static Scanner sc=new Scanner (System.in);
   public static void main(String[] args) {
