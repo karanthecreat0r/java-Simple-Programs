@@ -1,4 +1,6 @@
 //Tabels printing sub diffrent form
+
+
 import java.util.*;
 class Tables
 {
